@@ -1,0 +1,32 @@
+.flex {
+    border: 6px solid black;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    border-radius: 20px;
+}
+
+.flex__content{
+    flex-direction: row;
+    flex-grow: 1;
+    margin-left: 20px;
+    margin-top: -40px;
+}
+
+.flex__img{
+    border: 2px solid yellow;
+    height: 400px;
+    width: 500px;
+    margin-left: 15px;
+    
+}
+
+.titulo{
+    font-size: 50px;
+}
+
+.boton{
+    width: 150px;
+    color: red;
+}
