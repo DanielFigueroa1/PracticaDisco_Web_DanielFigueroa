@@ -1,9 +1,11 @@
 .flex {
-    border: 6px solid black;
-    width: 600px;
+    background-color: #1f1f1f;
+    background: linear-gradient( 309deg, rgba(10,10,10,1) 0%, rgba(34,34,34,0.92) 100%);
+    color: white;
+    width: 1000px;
     display: flex;
     flex-direction: column;
-    background-color: gray;
+    background-color: darkgray;
     border-radius: 20px;
 }
 
@@ -12,21 +14,30 @@
     flex-grow: 1;
     margin-left: 20px;
     margin-top: -40px;
+    order: 1;
 }
 
 .flex__img{
-    border: 2px solid yellow;
     height: 400px;
     width: 500px;
     margin-left: 15px;
+    flex-direction: row;
+    order: 2;
+    margin-top: -280px;
+    margin-left: 450px;
     
 }
 
 .titulo{
     font-size: 50px;
+    margin-left: 20px;
 }
 
 .boton{
     width: 150px;
     color: red;
+    order:3;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 20px;
 }
